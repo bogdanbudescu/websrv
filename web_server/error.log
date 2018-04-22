@@ -1,7 +1,0 @@
-server.c: In function ‘get_content_type_from_filepath’:
-server.c:238:13: warning: implicit declaration of function ‘print’ [-Wimplicit-function-declaration]
-             print("extention");
-             ^
-/tmp/cceyaWnJ.o: In function `get_content_type_from_filepath':
-server.c:(.text+0x830): undefined reference to `print'
-collect2: error: ld returned 1 exit status
